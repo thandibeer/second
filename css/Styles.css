@@ -1,0 +1,37 @@
+input{
+    margin: 5px 0;
+}
+fieldset{
+    width: 220px;
+    padding: 10px 20px;
+    background-color:rgb(73, 43, 121);
+    margin-bottom: 10px;
+    color:  white;
+}
+h3{
+    color: rgb(16, 10, 102);
+}
+legend{
+    background-color: rgb(253, 203, 109);
+    padding: 0 10px;
+    color: rgb(16, 10, 102);
+}
+#inp1,#inp2{
+    float: right;
+    max-width: 40px;
+    margin: 0 5px 6px 5px;
+}
+#plus,#mul,#div,#clear{
+    float: right;
+    max-width: 20px;
+    margin: 0 4px 8px 4px;
+}
+div.operators{
+    margin-right: 15px;
+}
+div.operand{
+    margin-right:24px;
+}
+#clear{
+    max-width: 45px;
+}

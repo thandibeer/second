@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="css/Styles.css" rel="stylesheet">
+        <meta name="author" content="RG">
+        <meta charset="utf-8">
+        <script src="script/script1.js"></script>
+    </head>
+    <body>
+        <header>
+            <h3>Calculator App</h3>
+        </header>
+            <form name="calculator" action='' method='GET'>
+                <fieldset>
+                    <legend>My Calculator</legend>
+                    <textarea name="output" id="text" rows="3" cols="20"></textarea>
+                    <br>
+                </fieldset>
+                <fieldset>
+                    <legend>Input</legend>
+                    <div class="operand">
+                    Operands:
+                    <input type="text" id="inp1"/>
+                    <input type="text" id="inp2"/>
+                    </div>
+
+                    <br>
+                    
+                    <div class="operators">
+                    Operator:
+                    <input type="button" id="clear" value="Clear" onclick="Clear()"/>
+                    <input type="button" id="div" value=":" onclick="Div()"/>
+                    <input type="button" id="mul" value="x" onclick="Mul()"/>
+                    <input type="button" id="plus" value="+" onclick="Sum()"/>
+                    </div>
+                </fieldset>               
+            </form>
+    </body>
+</html>
